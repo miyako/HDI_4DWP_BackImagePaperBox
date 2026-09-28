@@ -79,26 +79,26 @@
 					"top": 718,
 					"left": 421,
 					"width": 99,
-					"height": 17,
-					"text": "Save",
+					"text": ":xliff:Edition_BtnSave",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 718,
 					"left": 246,
 					"width": 155,
-					"height": 18,
-					"text": "Set to border-box",
+					"text": ":xliff:Edition_BtnBorderBox",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}

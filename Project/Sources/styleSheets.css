@@ -1,0 +1,69 @@
+/* Cross-platform dark mode support */
+
+@media (prefers-color-scheme: light) {
+	.hdi-muted {
+		stroke: #696969;
+	}
+
+	.hdi2-note {
+		stroke: #929292;
+	}
+
+	.hdi-link {
+		stroke: #1E90FF;
+	}
+
+	.hdi-panel {
+		fill: #C0C0C0;
+	}
+
+	.field-fill {
+		fill: #FFFFFF;
+	}
+
+	.output-row-sep {
+		stroke: #FFFFFF;
+	}
+
+	.output-col-divider {
+		stroke: #A8A8A8;
+	}
+
+	.hdi2-accent {
+		stroke: #00AAD6;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-muted {
+		stroke: #A0A0A0;
+	}
+
+	.hdi2-note {
+		stroke: #B5B5B5;
+	}
+
+	.hdi-link {
+		stroke: #5CB8FF;
+	}
+
+	.hdi-panel {
+		fill: #3A3A3A;
+	}
+
+	.field-fill {
+		fill: #2A2A2A;
+	}
+
+	.output-row-sep {
+		stroke: #3A3A3A;
+	}
+
+	.output-col-divider {
+		stroke: #6E6E6E;
+	}
+
+	.hdi2-accent {
+		stroke: #33C2E8;
+	}
+}

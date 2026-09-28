@@ -1,5 +1,6 @@
-C_TEXT:C284($pathInfo; $pathDemo1; $pathDemo2)
-C_LONGINT:C283($platform)
+//%attributes = {"invisible":true}
+var $pathInfo; $pathDemo1; $pathDemo2 : Text
+var $platform : Integer
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
@@ -26,4 +27,3 @@ Case of
 		vDoc2:=WP Import document:C1318($pathDemo2)
 		
 End case 
-

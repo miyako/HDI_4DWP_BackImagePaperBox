@@ -1,4 +1,5 @@
-C_TEXT:C284($path)
+//%attributes = {"invisible":true}
+var $path : Text
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
@@ -8,4 +9,3 @@ Case of
 		vDocEx:=WP Import document:C1318($path)
 		
 End case 
-

@@ -1,4 +1,5 @@
-C_TEXT:C284($path)
+//%attributes = {"invisible":true}
+var $path : Text
 
 // Load Argentina example document
 $path:=Get 4D folder:C485(Current resources folder:K5:16)+"Argentina.4wp"

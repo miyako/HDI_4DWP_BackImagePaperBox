@@ -1,5 +1,6 @@
-C_TEXT:C284($path; $file)
-C_PICTURE:C286($pict)
+//%attributes = {"invisible":true}
+var $path; $file : Text
+var $pict : Picture
 
 
 // Select the image to insert according to the current example 

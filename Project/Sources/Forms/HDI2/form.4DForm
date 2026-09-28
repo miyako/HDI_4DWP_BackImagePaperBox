@@ -46,9 +46,9 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Demo 1",
-						"Demo 2"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabDemo1",
+						":xliff:HDI2_TabDemo2"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -124,7 +124,7 @@
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"fontWeight": "bold",
-					"text": "Background Image Clipping"
+					"text": ":xliff:HDI2_TextClippingHeader"
 				},
 				"Text1": {
 					"type": "text",
@@ -137,7 +137,7 @@
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"fontWeight": "bold",
-					"text": "Background Image Origin"
+					"text": ":xliff:HDI2_TextOriginHeader"
 				},
 				"Radio Button": {
 					"type": "radio",
@@ -148,7 +148,7 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"dataSource": "vClipBorder",
-					"text": "Border Box",
+					"text": ":xliff:HDI2_RadioBorderBox1",
 					"focusable": false,
 					"radioGroup": "Group5",
 					"method": "ObjectMethods/Radio Button.4dm",
@@ -165,7 +165,7 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"dataSource": "vClipPaper",
-					"text": "Paper Box",
+					"text": ":xliff:HDI2_RadioPaperBox1",
 					"focusable": false,
 					"radioGroup": "Group5",
 					"method": "ObjectMethods/Radio Button1.4dm",
@@ -182,7 +182,7 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"dataSource": "vOriginBorder",
-					"text": "Border Box",
+					"text": ":xliff:HDI2_RadioBorderBox2",
 					"focusable": false,
 					"radioGroup": "Group2",
 					"method": "ObjectMethods/Radio Button2.4dm",
@@ -199,7 +199,7 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"dataSource": "vOriginPaper",
-					"text": "Paper Box",
+					"text": ":xliff:HDI2_RadioPaperBox2",
 					"focusable": false,
 					"radioGroup": "Group2",
 					"method": "ObjectMethods/Radio Button3.4dm",
@@ -212,15 +212,15 @@
 					"top": 307,
 					"left": 665,
 					"width": 138,
-					"height": 18,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Insert Image",
+					"text": ":xliff:HDI2_BtnInsertImage",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text2": {
 					"type": "text",
@@ -232,7 +232,7 @@
 					"sizingY": "move",
 					"fontFamily": "System Font",
 					"fontSize": 14,
-					"text": "Insert a background image for the document"
+					"text": ":xliff:HDI2_TextInsertIntro"
 				},
 				"Text3": {
 					"type": "text",
@@ -244,7 +244,7 @@
 					"sizingY": "move",
 					"fontFamily": "System Font",
 					"fontSize": 14,
-					"text": "Define the positioning of the background image"
+					"text": ":xliff:HDI2_TextPositionIntro"
 				},
 				"Picture4": {
 					"type": "picture",
@@ -289,7 +289,7 @@
 					"sizingY": "move",
 					"fontFamily": "System Font",
 					"fontSize": 14,
-					"text": "Select an example document"
+					"text": ":xliff:HDI2_TextSelectExample"
 				},
 				"Picture8": {
 					"type": "picture",
@@ -322,7 +322,7 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"dataSource": "vAustraliaEx",
-					"text": "Australia",
+					"text": ":xliff:HDI2_RadioAustralia",
 					"focusable": false,
 					"radioGroup": "Group4",
 					"method": "ObjectMethods/Radio Button4.4dm",
@@ -339,7 +339,7 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"dataSource": "vArgentinaEx",
-					"text": "Argentina",
+					"text": ":xliff:HDI2_RadioArgentina",
 					"focusable": false,
 					"radioGroup": "Group4",
 					"method": "ObjectMethods/Radio Button5.4dm",
@@ -358,7 +358,7 @@
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"fontWeight": "bold",
-					"text": "This example shows you how you can programmatically insert a background image filling the whole printable area"
+					"text": ":xliff:HDI2_TextDemo1Intro"
 				}
 			}
 		},
@@ -398,7 +398,7 @@
 					"sizingY": "move",
 					"fontFamily": "System Font",
 					"fontSize": 14,
-					"text": "Define the positioning of the background image for the whole document (all sections)"
+					"text": ":xliff:HDI2_TextDoc2PositionIntro"
 				},
 				"Text11": {
 					"type": "text",
@@ -411,22 +411,22 @@
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"fontWeight": "bold",
-					"text": "This example shows you how you can use standard actions to insert a background image filling the whole printable area"
+					"text": ":xliff:HDI2_TextDemo2Intro"
 				},
 				"Button": {
 					"type": "button",
 					"top": 585,
 					"left": 715,
 					"width": 121,
-					"height": 18,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Set to paper edge",
+					"text": ":xliff:HDI2_BtnSetPaperEdge1",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text6": {
 					"type": "text",
@@ -438,22 +438,22 @@
 					"sizingY": "move",
 					"fontFamily": "System Font",
 					"fontSize": 14,
-					"text": "Define the positioning of the background image for the current section only"
+					"text": ":xliff:HDI2_TextSectionPositionIntro"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 222,
 					"left": 715,
 					"width": 121,
-					"height": 18,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Set to paper edge",
+					"text": ":xliff:HDI2_BtnSetPaperEdge2",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Picture2": {
 					"type": "picture",
@@ -498,22 +498,22 @@
 					"sizingY": "move",
 					"fontFamily": "System Font",
 					"fontSize": 14,
-					"text": "Come back to original document"
+					"text": ":xliff:HDI2_TextComeBack"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 457,
 					"left": 715,
 					"width": 121,
-					"height": 18,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Load doc",
+					"text": ":xliff:HDI2_BtnLoadDoc",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text8": {
 					"type": "text",
@@ -523,11 +523,11 @@
 					"height": 91,
 					"sizingX": "move",
 					"sizingY": "move",
-					"stroke": "#929292",
 					"fontFamily": "System Font",
 					"fontSize": 12,
 					"fontStyle": "italic",
-					"text": "Note: This document is made up of 2 sections: first page is section 1 and section 2 is the rest of the document. \rScroll down through the document to see that only the current section background image positioning has been modified."
+					"text": ":xliff:HDI2_NoteSection",
+					"class": "hdi2-note"
 				},
 				"Text10": {
 					"type": "text",
@@ -537,11 +537,11 @@
 					"height": 46,
 					"sizingX": "move",
 					"sizingY": "move",
-					"stroke": "#929292",
 					"fontFamily": "System Font",
 					"fontSize": 12,
 					"fontStyle": "italic",
-					"text": "Note: Scroll down through the document to see that the background image positioning has been modified for all sections."
+					"text": ":xliff:HDI2_NoteWholeDoc",
+					"class": "hdi2-note"
 				},
 				"Text12": {
 					"type": "text",
@@ -549,12 +549,12 @@
 					"left": 654,
 					"width": 243,
 					"height": 16,
-					"stroke": "#00AAD6",
 					"textAlign": "center",
 					"fontFamily": "System Font",
 					"fontSize": 12,
 					"fontStyle": "italic",
-					"text": "section/backgroundClip?value=paper-box"
+					"text": ":xliff:HDI2_ActionSectionClip",
+					"class": "hdi2-accent"
 				},
 				"Text13": {
 					"type": "text",
@@ -562,12 +562,12 @@
 					"left": 642,
 					"width": 266,
 					"height": 16,
-					"stroke": "#00AAD6",
 					"textAlign": "center",
 					"fontFamily": "System Font",
 					"fontSize": 12,
 					"fontStyle": "italic",
-					"text": "section/backgroundOrigin?value=paper-box"
+					"text": ":xliff:HDI2_ActionSectionOrigin",
+					"class": "hdi2-accent"
 				},
 				"Text14": {
 					"type": "text",
@@ -575,12 +575,12 @@
 					"left": 654,
 					"width": 243,
 					"height": 16,
-					"stroke": "#00AAD6",
 					"textAlign": "center",
 					"fontFamily": "System Font",
 					"fontSize": 12,
 					"fontStyle": "italic",
-					"text": "doc/backgroundClip?value=paper-box"
+					"text": ":xliff:HDI2_ActionDocClip",
+					"class": "hdi2-accent"
 				},
 				"Text15": {
 					"type": "text",
@@ -588,12 +588,12 @@
 					"left": 642,
 					"width": 266,
 					"height": 16,
-					"stroke": "#00AAD6",
 					"textAlign": "center",
 					"fontFamily": "System Font",
 					"fontSize": 12,
 					"fontStyle": "italic",
-					"text": "doc/backgroundOrigin?value=paper-box"
+					"text": ":xliff:HDI2_ActionDocOrigin",
+					"class": "hdi2-accent"
 				}
 			}
 		}

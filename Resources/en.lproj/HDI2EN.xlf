@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+        <source>Info</source>
+        <target>Info</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo1" resname="HDI2_TabDemo1">
+        <source>Demo 1</source>
+        <target>Demo 1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo2" resname="HDI2_TabDemo2">
+        <source>Demo 2</source>
+        <target>Demo 2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextClippingHeader" resname="HDI2_TextClippingHeader">
+        <source>Background Image Clipping</source>
+        <target>Background Image Clipping</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextOriginHeader" resname="HDI2_TextOriginHeader">
+        <source>Background Image Origin</source>
+        <target>Background Image Origin</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioBorderBox1" resname="HDI2_RadioBorderBox1">
+        <source>Border Box</source>
+        <target>Border Box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioPaperBox1" resname="HDI2_RadioPaperBox1">
+        <source>Paper Box</source>
+        <target>Paper Box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioBorderBox2" resname="HDI2_RadioBorderBox2">
+        <source>Border Box</source>
+        <target>Border Box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioPaperBox2" resname="HDI2_RadioPaperBox2">
+        <source>Paper Box</source>
+        <target>Paper Box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnInsertImage" resname="HDI2_BtnInsertImage">
+        <source>Insert Image</source>
+        <target>Insert Image</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextInsertIntro" resname="HDI2_TextInsertIntro">
+        <source>Insert a background image for the document</source>
+        <target>Insert a background image for the document</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextPositionIntro" resname="HDI2_TextPositionIntro">
+        <source>Define the positioning of the background image</source>
+        <target>Define the positioning of the background image</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextSelectExample" resname="HDI2_TextSelectExample">
+        <source>Select an example document</source>
+        <target>Select an example document</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioAustralia" resname="HDI2_RadioAustralia">
+        <source>Australia</source>
+        <target>Australia</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioArgentina" resname="HDI2_RadioArgentina">
+        <source>Argentina</source>
+        <target>Argentina</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextDemo1Intro" resname="HDI2_TextDemo1Intro">
+        <source>This example shows you how you can programmatically insert a background image filling the whole printable area</source>
+        <target>This example shows you how you can programmatically insert a background image filling the whole printable area</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextDoc2PositionIntro" resname="HDI2_TextDoc2PositionIntro">
+        <source>Define the positioning of the background image for the whole document (all sections)</source>
+        <target>Define the positioning of the background image for the whole document (all sections)</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextDemo2Intro" resname="HDI2_TextDemo2Intro">
+        <source>This example shows you how you can use standard actions to insert a background image filling the whole printable area</source>
+        <target>This example shows you how you can use standard actions to insert a background image filling the whole printable area</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnSetPaperEdge1" resname="HDI2_BtnSetPaperEdge1">
+        <source>Set to paper edge</source>
+        <target>Set to paper edge</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextSectionPositionIntro" resname="HDI2_TextSectionPositionIntro">
+        <source>Define the positioning of the background image for the current section only</source>
+        <target>Define the positioning of the background image for the current section only</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnSetPaperEdge2" resname="HDI2_BtnSetPaperEdge2">
+        <source>Set to paper edge</source>
+        <target>Set to paper edge</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextComeBack" resname="HDI2_TextComeBack">
+        <source>Come back to original document</source>
+        <target>Come back to original document</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnLoadDoc" resname="HDI2_BtnLoadDoc">
+        <source>Load doc</source>
+        <target>Load doc</target>
+      </trans-unit>
+      <trans-unit id="HDI2_NoteSection" resname="HDI2_NoteSection">
+        <source>Note: This document is made up of 2 sections: first page is section 1 and section 2 is the rest of the document. Scroll down through the document to see that only the current section background image positioning has been modified.</source>
+        <target>Note: This document is made up of 2 sections: first page is section 1 and section 2 is the rest of the document. Scroll down through the document to see that only the current section background image positioning has been modified.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_NoteWholeDoc" resname="HDI2_NoteWholeDoc">
+        <source>Note: Scroll down through the document to see that the background image positioning has been modified for all sections.</source>
+        <target>Note: Scroll down through the document to see that the background image positioning has been modified for all sections.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ActionSectionClip" resname="HDI2_ActionSectionClip">
+        <source>section/backgroundClip?value=paper-box</source>
+        <target>section/backgroundClip?value=paper-box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ActionSectionOrigin" resname="HDI2_ActionSectionOrigin">
+        <source>section/backgroundOrigin?value=paper-box</source>
+        <target>section/backgroundOrigin?value=paper-box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ActionDocClip" resname="HDI2_ActionDocClip">
+        <source>doc/backgroundClip?value=paper-box</source>
+        <target>doc/backgroundClip?value=paper-box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ActionDocOrigin" resname="HDI2_ActionDocOrigin">
+        <source>doc/backgroundOrigin?value=paper-box</source>
+        <target>doc/backgroundOrigin?value=paper-box</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

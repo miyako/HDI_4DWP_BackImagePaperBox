@@ -44,10 +44,10 @@
 					"width": 356,
 					"height": 22,
 					"sizingX": "grow",
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 18,
-					"text": "Countries"
+					"text": ":xliff:Countries_Header"
 				},
 				"Name": {
 					"type": "input",
@@ -58,7 +58,6 @@
 					"dataSource": "[Countries:1]Name:2",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -73,7 +72,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"ShortName": {
 					"type": "input",
@@ -84,7 +84,6 @@
 					"dataSource": "[Countries:1]ShortName:1",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -99,7 +98,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"AreaPosition": {
 					"type": "input",
@@ -111,7 +111,6 @@
 					"dataSourceTypeHint": "integer",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -126,7 +125,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"CallingCode": {
 					"type": "input",
@@ -137,7 +137,6 @@
 					"dataSource": "[Countries:1]CallingCode:9",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -152,7 +151,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"Capital": {
 					"type": "input",
@@ -163,7 +163,6 @@
 					"dataSource": "[Countries:1]Capital:3",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -178,7 +177,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"Currency": {
 					"type": "input",
@@ -189,7 +189,6 @@
 					"dataSource": "[Countries:1]Currency:6",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -204,7 +203,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"Flag": {
 					"type": "input",
@@ -214,7 +214,6 @@
 					"height": 170,
 					"dataSource": "[Countries:1]Flag:14",
 					"dataSourceTypeHint": "picture",
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"pictureFormat": "truncatedCenter",
 					"dragging": "custom",
@@ -228,7 +227,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"InhabitantPosition": {
 					"type": "input",
@@ -240,7 +240,6 @@
 					"dataSourceTypeHint": "integer",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -255,7 +254,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"Inhabitants": {
 					"type": "input",
@@ -267,7 +267,6 @@
 					"dataSourceTypeHint": "integer",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -282,7 +281,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"Language": {
 					"type": "input",
@@ -293,7 +293,6 @@
 					"dataSource": "[Countries:1]Language:4",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -308,7 +307,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"Anthem": {
 					"type": "input",
@@ -319,7 +319,6 @@
 					"dataSource": "[Countries:1]Anthem:5",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -334,7 +333,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"Area": {
 					"type": "input",
@@ -346,7 +346,6 @@
 					"dataSourceTypeHint": "integer",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -361,7 +360,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"TimeZone": {
 					"type": "input",
@@ -372,7 +372,6 @@
 					"dataSource": "[Countries:1]TimeZone:7",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -387,7 +386,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"TLD": {
 					"type": "input",
@@ -398,7 +398,6 @@
 					"dataSource": "[Countries:1]TLD:8",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -413,7 +412,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"class": "field-fill"
 				},
 				"Line19": {
 					"type": "line",
@@ -564,7 +564,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "Anthem : "
+					"text": ":xliff:Countries_LabelAnthem"
 				},
 				"Text21": {
 					"type": "text",
@@ -575,7 +575,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "Area : "
+					"text": ":xliff:Countries_LabelArea"
 				},
 				"Text22": {
 					"type": "text",
@@ -586,7 +586,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "AreaPosition : "
+					"text": ":xliff:Countries_LabelAreaPosition"
 				},
 				"Text23": {
 					"type": "text",
@@ -597,7 +597,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "CallingCode : "
+					"text": ":xliff:Countries_LabelCallingCode"
 				},
 				"Text24": {
 					"type": "text",
@@ -608,7 +608,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "Capital : "
+					"text": ":xliff:Countries_LabelCapital"
 				},
 				"Text25": {
 					"type": "text",
@@ -619,7 +619,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "Currency : "
+					"text": ":xliff:Countries_LabelCurrency"
 				},
 				"Text26": {
 					"type": "text",
@@ -630,7 +630,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "Flag : "
+					"text": ":xliff:Countries_LabelFlag"
 				},
 				"Text28": {
 					"type": "text",
@@ -641,7 +641,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "InhabitantPosition : "
+					"text": ":xliff:Countries_LabelInhabitantPosition"
 				},
 				"Text29": {
 					"type": "text",
@@ -652,7 +652,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "Inhabitants : "
+					"text": ":xliff:Countries_LabelInhabitants"
 				},
 				"Text30": {
 					"type": "text",
@@ -663,7 +663,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "Language : "
+					"text": ":xliff:Countries_LabelLanguage"
 				},
 				"Text31": {
 					"type": "text",
@@ -674,7 +674,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "Name : "
+					"text": ":xliff:Countries_LabelName"
 				},
 				"Text32": {
 					"type": "text",
@@ -685,7 +685,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "ShortName : "
+					"text": ":xliff:Countries_LabelShortName"
 				},
 				"Text33": {
 					"type": "text",
@@ -696,7 +696,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "TimeZone : "
+					"text": ":xliff:Countries_LabelTimeZone"
 				},
 				"Text34": {
 					"type": "text",
@@ -707,7 +707,7 @@
 					"textAlign": "right",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 12,
-					"text": "TLD : "
+					"text": ":xliff:Countries_LabelTLD"
 				}
 			}
 		}
