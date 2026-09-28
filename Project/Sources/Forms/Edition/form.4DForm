@@ -1,0 +1,106 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "612pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"WParea": {
+					"type": "write",
+					"top": 23,
+					"left": 21,
+					"width": 520,
+					"height": 680,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vDocEx",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"zoom": 75,
+					"showSelection": true,
+					"showVerticalRuler": false,
+					"method": "ObjectMethods/WParea.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"WPwidget": {
+					"type": "subform",
+					"top": 23,
+					"left": 561,
+					"width": 260,
+					"height": 680,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"detailForm": "WP_Palette",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"Button": {
+					"type": "button",
+					"top": 718,
+					"left": 421,
+					"width": 99,
+					"text": ":xliff:Edition_BtnSave",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 718,
+					"left": 246,
+					"width": 155,
+					"text": ":xliff:Edition_BtnBorderBox",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				}
+			}
+		}
+	]
+}

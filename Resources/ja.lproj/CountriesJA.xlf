@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/1" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Countries_Header" resname="Countries_Header">
+        <source>Countries</source>
+        <target>国</target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelAnthem" resname="Countries_LabelAnthem">
+        <source>Anthem : </source>
+        <target>国歌 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelArea" resname="Countries_LabelArea">
+        <source>Area : </source>
+        <target>面積 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelAreaPosition" resname="Countries_LabelAreaPosition">
+        <source>AreaPosition : </source>
+        <target>面積順位 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelCallingCode" resname="Countries_LabelCallingCode">
+        <source>CallingCode : </source>
+        <target>国番号 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelCapital" resname="Countries_LabelCapital">
+        <source>Capital : </source>
+        <target>首都 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelCurrency" resname="Countries_LabelCurrency">
+        <source>Currency : </source>
+        <target>通貨 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelFlag" resname="Countries_LabelFlag">
+        <source>Flag : </source>
+        <target>国旗 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelInhabitantPosition" resname="Countries_LabelInhabitantPosition">
+        <source>InhabitantPosition : </source>
+        <target>人口順位 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelInhabitants" resname="Countries_LabelInhabitants">
+        <source>Inhabitants : </source>
+        <target>人口 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelLanguage" resname="Countries_LabelLanguage">
+        <source>Language : </source>
+        <target>言語 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelName" resname="Countries_LabelName">
+        <source>Name : </source>
+        <target>国名 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelShortName" resname="Countries_LabelShortName">
+        <source>ShortName : </source>
+        <target>略称 : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelTimeZone" resname="Countries_LabelTimeZone">
+        <source>TimeZone : </source>
+        <target>タイムゾーン : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelTLD" resname="Countries_LabelTLD">
+        <source>TLD : </source>
+        <target>TLD : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

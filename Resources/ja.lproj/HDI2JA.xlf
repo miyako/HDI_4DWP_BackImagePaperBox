@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+        <source>Info</source>
+        <target>情報</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo1" resname="HDI2_TabDemo1">
+        <source>Demo 1</source>
+        <target>デモ 1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo2" resname="HDI2_TabDemo2">
+        <source>Demo 2</source>
+        <target>デモ 2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextClippingHeader" resname="HDI2_TextClippingHeader">
+        <source>Background Image Clipping</source>
+        <target>背景画像のクリッピング</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextOriginHeader" resname="HDI2_TextOriginHeader">
+        <source>Background Image Origin</source>
+        <target>背景画像の原点</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioBorderBox1" resname="HDI2_RadioBorderBox1">
+        <source>Border Box</source>
+        <target>ボーダーボックス</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioPaperBox1" resname="HDI2_RadioPaperBox1">
+        <source>Paper Box</source>
+        <target>ペーパーボックス</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioBorderBox2" resname="HDI2_RadioBorderBox2">
+        <source>Border Box</source>
+        <target>ボーダーボックス</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioPaperBox2" resname="HDI2_RadioPaperBox2">
+        <source>Paper Box</source>
+        <target>ペーパーボックス</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnInsertImage" resname="HDI2_BtnInsertImage">
+        <source>Insert Image</source>
+        <target>画像を挿入</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextInsertIntro" resname="HDI2_TextInsertIntro">
+        <source>Insert a background image for the document</source>
+        <target>ドキュメントに背景画像を挿入します</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextPositionIntro" resname="HDI2_TextPositionIntro">
+        <source>Define the positioning of the background image</source>
+        <target>背景画像の位置を定義します</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextSelectExample" resname="HDI2_TextSelectExample">
+        <source>Select an example document</source>
+        <target>サンプルドキュメントを選択します</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioAustralia" resname="HDI2_RadioAustralia">
+        <source>Australia</source>
+        <target>オーストラリア</target>
+      </trans-unit>
+      <trans-unit id="HDI2_RadioArgentina" resname="HDI2_RadioArgentina">
+        <source>Argentina</source>
+        <target>アルゼンチン</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextDemo1Intro" resname="HDI2_TextDemo1Intro">
+        <source>This example shows you how you can programmatically insert a background image filling the whole printable area</source>
+        <target>この例では、印刷可能領域全体を埋める背景画像をプログラムで挿入する方法を示します</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextDoc2PositionIntro" resname="HDI2_TextDoc2PositionIntro">
+        <source>Define the positioning of the background image for the whole document (all sections)</source>
+        <target>ドキュメント全体（すべてのセクション）の背景画像の位置を定義します</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextDemo2Intro" resname="HDI2_TextDemo2Intro">
+        <source>This example shows you how you can use standard actions to insert a background image filling the whole printable area</source>
+        <target>この例では、標準アクションを使用して印刷可能領域全体を埋める背景画像を挿入する方法を示します</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnSetPaperEdge1" resname="HDI2_BtnSetPaperEdge1">
+        <source>Set to paper edge</source>
+        <target>用紙の端に設定</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextSectionPositionIntro" resname="HDI2_TextSectionPositionIntro">
+        <source>Define the positioning of the background image for the current section only</source>
+        <target>現在のセクションのみの背景画像の位置を定義します</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnSetPaperEdge2" resname="HDI2_BtnSetPaperEdge2">
+        <source>Set to paper edge</source>
+        <target>用紙の端に設定</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TextComeBack" resname="HDI2_TextComeBack">
+        <source>Come back to original document</source>
+        <target>元のドキュメントに戻ります</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnLoadDoc" resname="HDI2_BtnLoadDoc">
+        <source>Load doc</source>
+        <target>ドキュメントを読み込む</target>
+      </trans-unit>
+      <trans-unit id="HDI2_NoteSection" resname="HDI2_NoteSection">
+        <source>Note: This document is made up of 2 sections: first page is section 1 and section 2 is the rest of the document. Scroll down through the document to see that only the current section background image positioning has been modified.</source>
+        <target>注記: このドキュメントは2つのセクションで構成されています。最初のページがセクション1、残りがセクション2です。ドキュメントをスクロールすると、現在のセクションの背景画像の位置のみが変更されていることが確認できます。</target>
+      </trans-unit>
+      <trans-unit id="HDI2_NoteWholeDoc" resname="HDI2_NoteWholeDoc">
+        <source>Note: Scroll down through the document to see that the background image positioning has been modified for all sections.</source>
+        <target>注記: ドキュメントをスクロールすると、すべてのセクションで背景画像の位置が変更されていることが確認できます。</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ActionSectionClip" resname="HDI2_ActionSectionClip">
+        <source>section/backgroundClip?value=paper-box</source>
+        <target>section/backgroundClip?value=paper-box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ActionSectionOrigin" resname="HDI2_ActionSectionOrigin">
+        <source>section/backgroundOrigin?value=paper-box</source>
+        <target>section/backgroundOrigin?value=paper-box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ActionDocClip" resname="HDI2_ActionDocClip">
+        <source>doc/backgroundClip?value=paper-box</source>
+        <target>doc/backgroundClip?value=paper-box</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ActionDocOrigin" resname="HDI2_ActionDocOrigin">
+        <source>doc/backgroundOrigin?value=paper-box</source>
+        <target>doc/backgroundOrigin?value=paper-box</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

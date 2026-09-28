@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/1" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Countries_Header" resname="Countries_Header">
+        <source>Countries</source>
+        <target>Countries</target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelAnthem" resname="Countries_LabelAnthem">
+        <source>Anthem : </source>
+        <target>Anthem : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelArea" resname="Countries_LabelArea">
+        <source>Area : </source>
+        <target>Area : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelAreaPosition" resname="Countries_LabelAreaPosition">
+        <source>AreaPosition : </source>
+        <target>AreaPosition : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelCallingCode" resname="Countries_LabelCallingCode">
+        <source>CallingCode : </source>
+        <target>CallingCode : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelCapital" resname="Countries_LabelCapital">
+        <source>Capital : </source>
+        <target>Capital : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelCurrency" resname="Countries_LabelCurrency">
+        <source>Currency : </source>
+        <target>Currency : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelFlag" resname="Countries_LabelFlag">
+        <source>Flag : </source>
+        <target>Flag : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelInhabitantPosition" resname="Countries_LabelInhabitantPosition">
+        <source>InhabitantPosition : </source>
+        <target>InhabitantPosition : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelInhabitants" resname="Countries_LabelInhabitants">
+        <source>Inhabitants : </source>
+        <target>Inhabitants : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelLanguage" resname="Countries_LabelLanguage">
+        <source>Language : </source>
+        <target>Language : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelName" resname="Countries_LabelName">
+        <source>Name : </source>
+        <target>Name : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelShortName" resname="Countries_LabelShortName">
+        <source>ShortName : </source>
+        <target>ShortName : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelTimeZone" resname="Countries_LabelTimeZone">
+        <source>TimeZone : </source>
+        <target>TimeZone : </target>
+      </trans-unit>
+      <trans-unit id="Countries_LabelTLD" resname="Countries_LabelTLD">
+        <source>TLD : </source>
+        <target>TLD : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

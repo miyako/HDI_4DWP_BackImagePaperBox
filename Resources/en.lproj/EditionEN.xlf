@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/Edition/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Edition_BtnSave" resname="Edition_BtnSave">
+        <source>Save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="Edition_BtnBorderBox" resname="Edition_BtnBorderBox">
+        <source>Set to border-box</source>
+        <target>Set to border-box</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
