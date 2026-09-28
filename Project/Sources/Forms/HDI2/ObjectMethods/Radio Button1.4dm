@@ -1,0 +1,1 @@
+WP SET ATTRIBUTES:C1342(vDoc; wk background clip:K81:25; wk paper box:K81:215)

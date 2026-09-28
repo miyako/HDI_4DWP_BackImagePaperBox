@@ -1,0 +1,617 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 720,
+	"windowMinHeight": 540,
+	"width": 1000,
+	"height": 800,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 12,
+					"left": 17,
+					"width": 965,
+					"height": 768,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Tab Control",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Info",
+						"Demo 1",
+						"Demo 2"
+					],
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"WPInfoArea": {
+					"type": "write",
+					"top": 49,
+					"left": 114,
+					"width": 761,
+					"height": 701,
+					"dataSource": "vInfoDoc",
+					"enterable": false,
+					"focusable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showHeaders": false,
+					"showFooters": false,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"borderStyle": "none",
+					"events": [
+						"onDataChange",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"WPDemoArea": {
+					"type": "write",
+					"top": 68,
+					"left": 26,
+					"width": 524,
+					"height": 697,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vDoc",
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"zoom": 75,
+					"showSelection": true,
+					"showVerticalRuler": false,
+					"events": [
+						"onDataChange",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 414,
+					"left": 618,
+					"width": 232,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Background Image Clipping"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 527,
+					"left": 618,
+					"width": 232,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Background Image Origin"
+				},
+				"Radio Button": {
+					"type": "radio",
+					"top": 452,
+					"left": 665,
+					"width": 112,
+					"height": 23,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "vClipBorder",
+					"text": "Border Box",
+					"focusable": false,
+					"radioGroup": "Group5",
+					"method": "ObjectMethods/Radio Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"top": 479,
+					"left": 665,
+					"width": 112,
+					"height": 23,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "vClipPaper",
+					"text": "Paper Box",
+					"focusable": false,
+					"radioGroup": "Group5",
+					"method": "ObjectMethods/Radio Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button2": {
+					"type": "radio",
+					"top": 565,
+					"left": 665,
+					"width": 112,
+					"height": 23,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "vOriginBorder",
+					"text": "Border Box",
+					"focusable": false,
+					"radioGroup": "Group2",
+					"method": "ObjectMethods/Radio Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button3": {
+					"type": "radio",
+					"top": 592,
+					"left": 665,
+					"width": 112,
+					"height": 23,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "vOriginPaper",
+					"text": "Paper Box",
+					"focusable": false,
+					"radioGroup": "Group2",
+					"method": "ObjectMethods/Radio Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 307,
+					"left": 665,
+					"width": 138,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Insert Image",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 269,
+					"left": 618,
+					"width": 335,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"text": "Insert a background image for the document"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 362,
+					"left": 618,
+					"width": 335,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"text": "Define the positioning of the background image"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 484,
+					"left": 752,
+					"width": 50,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.png"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 597,
+					"left": 752,
+					"width": 50,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"Picture7": {
+					"type": "picture",
+					"top": 161,
+					"left": 581,
+					"width": 25,
+					"height": 25,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture7.png"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 164,
+					"left": 618,
+					"width": 335,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"text": "Select an example document"
+				},
+				"Picture8": {
+					"type": "picture",
+					"top": 264,
+					"left": 581,
+					"width": 25,
+					"height": 25,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture8.png"
+				},
+				"Picture9": {
+					"type": "picture",
+					"top": 356,
+					"left": 581,
+					"width": 25,
+					"height": 25,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture9.png"
+				},
+				"Radio Button4": {
+					"type": "radio",
+					"top": 192,
+					"left": 656,
+					"width": 112,
+					"height": 23,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "vAustraliaEx",
+					"text": "Australia",
+					"focusable": false,
+					"radioGroup": "Group4",
+					"method": "ObjectMethods/Radio Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button5": {
+					"type": "radio",
+					"top": 221,
+					"left": 656,
+					"width": 112,
+					"height": 23,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSource": "vArgentinaEx",
+					"text": "Argentina",
+					"focusable": false,
+					"radioGroup": "Group4",
+					"method": "ObjectMethods/Radio Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 68,
+					"left": 581,
+					"width": 377,
+					"height": 52,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "This example shows you how you can programmatically insert a background image filling the whole printable area"
+				}
+			}
+		},
+		{
+			"objects": {
+				"WPDemoArea1": {
+					"type": "write",
+					"top": 68,
+					"left": 26,
+					"width": 524,
+					"height": 697,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vDoc2",
+					"hideFocusRing": true,
+					"dragging": "none",
+					"dropping": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"zoom": 50,
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"events": [
+						"onDataChange",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 530,
+					"left": 624,
+					"width": 335,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"text": "Define the positioning of the background image for the whole document (all sections)"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 68,
+					"left": 581,
+					"width": 377,
+					"height": 52,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "This example shows you how you can use standard actions to insert a background image filling the whole printable area"
+				},
+				"Button": {
+					"type": "button",
+					"top": 585,
+					"left": 715,
+					"width": 121,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Set to paper edge",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 168,
+					"left": 618,
+					"width": 340,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"text": "Define the positioning of the background image for the current section only"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 222,
+					"left": 715,
+					"width": 121,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Set to paper edge",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 168,
+					"left": 581,
+					"width": 25,
+					"height": 25,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.png"
+				},
+				"Picture3": {
+					"type": "picture",
+					"top": 415,
+					"left": 587,
+					"width": 25,
+					"height": 25,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.png"
+				},
+				"Picture5": {
+					"type": "picture",
+					"top": 524,
+					"left": 587,
+					"width": 25,
+					"height": 25,
+					"sizingX": "move",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture5.png"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 419,
+					"left": 624,
+					"width": 335,
+					"height": 35,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontFamily": "System Font",
+					"fontSize": 14,
+					"text": "Come back to original document"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 457,
+					"left": 715,
+					"width": 121,
+					"height": 18,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Load doc",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 311,
+					"left": 619,
+					"width": 340,
+					"height": 91,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#929292",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fontStyle": "italic",
+					"text": "Note: This document is made up of 2 sections: first page is section 1 and section 2 is the rest of the document. \rScroll down through the document to see that only the current section background image positioning has been modified."
+				},
+				"Text10": {
+					"type": "text",
+					"top": 661,
+					"left": 624,
+					"width": 340,
+					"height": 46,
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#929292",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fontStyle": "italic",
+					"text": "Note: Scroll down through the document to see that the background image positioning has been modified for all sections."
+				},
+				"Text12": {
+					"type": "text",
+					"top": 255,
+					"left": 654,
+					"width": 243,
+					"height": 16,
+					"stroke": "#00AAD6",
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fontStyle": "italic",
+					"text": "section/backgroundClip?value=paper-box"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 273,
+					"left": 642,
+					"width": 266,
+					"height": 16,
+					"stroke": "#00AAD6",
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fontStyle": "italic",
+					"text": "section/backgroundOrigin?value=paper-box"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 612,
+					"left": 654,
+					"width": 243,
+					"height": 16,
+					"stroke": "#00AAD6",
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fontStyle": "italic",
+					"text": "doc/backgroundClip?value=paper-box"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 630,
+					"left": 642,
+					"width": 266,
+					"height": 16,
+					"stroke": "#00AAD6",
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fontStyle": "italic",
+					"text": "doc/backgroundOrigin?value=paper-box"
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group5": [
+				"Radio Button",
+				"Radio Button1"
+			],
+			"Group2": [
+				"Radio Button2",
+				"Radio Button3"
+			],
+			"Group4": [
+				"Radio Button4",
+				"Radio Button5"
+			]
+		}
+	}
+}
